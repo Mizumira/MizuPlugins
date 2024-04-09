@@ -13,7 +13,7 @@ var Mizu = Mizu || {};
  */
 
 Mizu.Game_Player_makeEncounterCount = Game_Player.prototype.makeEncounterCount;
-Game_Player.prototype.makeEncounterCount = function(key) {
+Game_Player.prototype.makeEncounterCount = function() {
 	if (this._encounterCount <= 0) {
 		Mizu.Game_Player_makeEncounterCount.call(this)
 	}
