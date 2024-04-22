@@ -6,7 +6,7 @@ var Mizu = Mizu || {};
 
 /*:
  * @plugindesc (v0.9) Makes the Encounter Count not reset upon map transitions
- * @author Mizu
+ * @author Mizumira
  *
  * @help
  * The count will only reset on hitting 0
