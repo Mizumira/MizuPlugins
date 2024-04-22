@@ -5,11 +5,17 @@
 var Mizu = Mizu || {};
 
 /*:
- * @plugindesc Allows the proper usage of self switches with Zeriab ExtraMaps
- * @author Mizu
+ * @plugindesc (v1.0) Allows the proper usage of self switches with Zeriab ExtraMaps 
+ * @author Mizumira
  *
  * @help
- * completely compatible with existing save files and code
+ * This plugin prevents self switches from different events from being shared
+ * 
+ *
+ *
+ *=============================================================================
+ *     All my released MV Plugins:   https://github.com/Mizumira/MizuPlugins
+ *=============================================================================
  */
 
 Mizu.Game_SelfSwitches_value = Game_SelfSwitches.prototype.value;
